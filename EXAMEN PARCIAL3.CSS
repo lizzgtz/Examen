@@ -1,0 +1,72 @@
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+header{
+    width: 1250px;
+    height: 70px;
+    background-color: darkslateblue
+}
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 380px;
+    height: 400px;
+    border: 10px solid gainsboro;
+    border-radius: 5%;
+}
+img{
+    display: flex;
+    flex-direction: row
+    justify-content:space-around 
+    height: 300px;
+    width: 360px;
+}
+button{
+    width: 350px;
+    height: 30px;
+    background-color: #7850da;
+    border: none;
+    color: white;
+}
+footer{
+    width: 1250x;
+    height: 30px;
+    background-color: darkslateblue
+}
+footer{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+main{
+    background-color: gainsboro;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5%;
+}
+p{
+   font-size: 12px;
+   text-align: justify;
+   border: 5px solid white;
+}
+@media (min-width: 768px){
+    body{
+        flex-direction: column;
+        background-color: gainsboro;
+    }
+}
